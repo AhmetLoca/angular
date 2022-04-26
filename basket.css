@@ -1,0 +1,49 @@
+.product {
+    display : inline-block; /*div elemanlarını yan yana getirmek için*/
+    width : 140px;
+    border : 1px solid #ddd; /*sınır çizgisi*/
+    border-radius : 5px;
+    margin : 5px 10px 10px 5px;
+    padding : 5px;
+    transition : 0.3s ease all;
+}
+
+.product:hover {
+    background-color : #fff4df;
+    border-color : #ffc34f;
+    box-shadow : 0 0 5px #ffc34f;
+    transform : translateY(1px);
+}
+
+img {
+    height: 110px;
+}
+
+.product img {
+    width:100%;
+}
+
+.product-name {
+    height: 50px;
+}
+
+
+.product button {
+    width : 31px;
+}
+
+.product-price {
+    color : #5eb11b;
+    font-weight : 600;
+}
+
+
+.rebeccapurple {
+    border:3px solid rebeccapurple;
+    border-radius: 5px;
+    
+}
+
+.total {
+    font-weight : 600;
+}
